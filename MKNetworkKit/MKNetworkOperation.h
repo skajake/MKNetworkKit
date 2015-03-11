@@ -269,7 +269,7 @@ typedef enum {
  + *  Default set to YES.
  + *	If you want to disable using cookie, use this method.
  + */
-+-(void) useCookie:(BOOL)useCookie;
+-(void) useCookie:(BOOL)useCookie;
 
 /*!
  *  @abstract Authentication methods
