@@ -263,6 +263,15 @@ typedef enum {
 @property (strong, nonatomic) NSMutableDictionary *cacheHeaders;
 
 /*!
+ + *  @abstract Set whether to use cookie
+ + *
+ + *  @discussion
+ + *  Default set to YES.
+ + *	If you want to disable using cookie, use this method.
+ + */
++-(void) useCookie:(BOOL)useCookie;
+
+/*!
  *  @abstract Authentication methods
  *  
  *  @discussion

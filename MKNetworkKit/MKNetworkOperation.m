@@ -555,6 +555,10 @@ OSStatus extractIdentityAndTrust(CFDataRef inPKCS12Data,
   }
 }
 
+-(void) useCookie:(BOOL)useCookie {
+   [self.request setHTTPShouldHandleCookies:useCookie];
+}
+
 -(void) setUsername:(NSString*) username password:(NSString*) password {
   
   self.username = username;
