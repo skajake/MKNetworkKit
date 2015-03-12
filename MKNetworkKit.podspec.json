@@ -1,6 +1,6 @@
 {
   "name": "MKNetworkKit",
-  "version": "0.87",
+  "version": "0.87-skajake",
   "summary": "ARC ready Networking Framework with built in authentication and HTTP 1.1 caching standards support for iOS 5+ devices.",
   "homepage": "https://github.com/MugunthKumar/MKNetworkKit",
   "authors": {
