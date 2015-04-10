@@ -294,7 +294,7 @@ char *mk_NewBase64Encode(
 // returns an autoreleased NSString being the base 64 representation of the
 //	receiver.
 //
-- (NSString *)base64EncodedString
+- (NSString *)base64EncodedStringForMKNetworkKit
 {
 	size_t outputLength = 0;
 	char *outputBuffer =

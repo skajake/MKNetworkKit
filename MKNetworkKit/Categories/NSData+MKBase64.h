@@ -37,6 +37,6 @@ char *mk_NewBase64Encode(
 @interface NSData (MKNKBase64)
 
 + (NSData *)dataFromBase64String:(NSString *)aString;
-- (NSString *)base64EncodedString;
+- (NSString *)base64EncodedStringForMKNetworkKit;
 
 @end
